@@ -1,5 +1,17 @@
+
 # potatoCash
-A shared expenses application written in Python, built upon Django. 
+A shared expenses application written in Python, built using Django. 
+
+- [potatoCash](#potatocash)
+  - [Inspirations](#inspirations)
+  - [Features](#features)
+    - [Core](#core)
+      - [Shared Expenses](#shared-expenses)
+      - [Notifications](#notifications)
+      - [Expense Prediction/Insights](#expense-predictioninsights)
+      - [UI](#ui)
+      - [User Management](#user-management)
+    - [Extended](#extended)
 
 ## Inspirations
 - [Beem](https://www.beemit.com.au)
@@ -8,7 +20,7 @@ A shared expenses application written in Python, built upon Django.
 
 ## Features
 ### Core
-These features should be prioritorised for intial release. 
+These features should be prioritorised for intial release.
 #### Shared Expenses
 - Split expenses between groups.
 #### Notifications
