@@ -11,6 +11,7 @@ A shared expenses application written in Python, built using Django.
       - [Expense Prediction/Insights](#expense-predictioninsights)
       - [UI](#ui)
       - [User Management](#user-management)
+      - [Audit log](#audit-log)
     - [Extended](#extended)
 
 ## Inspirations
@@ -22,7 +23,9 @@ A shared expenses application written in Python, built using Django.
 ### Core
 These features should be prioritorised for intial release.
 #### Shared Expenses
-- Split expenses between groups.
+- Split expenses between users and groups.
+- Document upload
+- Image capture
 #### Notifications
   - Email and SMS.
   - Customisable notifcation preferences.
@@ -35,6 +38,10 @@ These features should be prioritorised for intial release.
 #### User Management
 - Invite users by email
 - Group administration
+- Guest access via one time email link
+#### Audit log
+- User actions
+- User sign in
 
 ### Extended
 These features should be aimed for future releases. 
