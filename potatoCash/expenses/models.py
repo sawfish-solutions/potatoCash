@@ -3,8 +3,8 @@ from django.db import models
 
 # Create your models here.
 class Expenses(models.Model):
-    user_name = models.CharField(max_length=255),
-    first_name = models.CharField(max_length=255),
-    last_name = models.CharField(max_length=255),
-    exp_category = models.CharField(max_length=255),
-    exp_value = models.FloatField(max_length=100)
+    username = models.CharField(max_length=255, default='test')
+    firstname = models.CharField(max_length=255, default='test_fn')
+    lastname = models.CharField(max_length=255, default='test_sn')
+    expcategory = models.CharField(max_length=255, null=True, default='test_cat')
+    expvalue = models.IntegerField()
