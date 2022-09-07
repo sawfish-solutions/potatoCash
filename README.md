@@ -13,6 +13,7 @@ A shared expenses application written in Python, built using Django.
       - [User Management](#user-management)
       - [Audit log](#audit-log)
     - [Extended](#extended)
+      - [References](#references)
 
 ## Inspirations
 - [Beem](https://www.beemit.com.au)
@@ -50,3 +51,7 @@ These features should be aimed for future releases.
 - API
 - Native mobile app.
 - EFTPOS API integration? Mimic functionality of Beem. 
+
+#### References
+https://www.w3schools.com/django/django_models.php
+https://bulma.io/documentation/overview/classes/
