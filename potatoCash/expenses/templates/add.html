@@ -16,7 +16,7 @@
         Welcome to potatoCash! Made with &#129505;, using <strong>Bulma</strong> & <strong>Django</strong>
       </p>
     </div>
-    <form action="addrecord/" method="post">
+    <form action="addexpense/" method="post">
         {% csrf_token %}
         Username: <br>
         <input name="user_name">
@@ -33,7 +33,7 @@
         Expense Value: <br>
         <input name="exp_value">
         <br><br>
-        <input type="submit" value="Submit"
+        <input type="submit" value="Submit">
     </form>
   </section>
   </body>
