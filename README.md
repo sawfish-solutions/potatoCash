@@ -55,3 +55,5 @@ These features should be aimed for future releases.
 #### References
 https://www.w3schools.com/django/django_models.php
 https://bulma.io/documentation/overview/classes/
+https://realpython.com/django-user-management/
+https://learndjango.com/tutorials/django-login-and-logout-tutorial
