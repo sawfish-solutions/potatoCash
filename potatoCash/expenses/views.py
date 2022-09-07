@@ -6,7 +6,7 @@ from .models import Expenses
 
 def index(request):
     allExpenses = Expenses.objects.all().values()
-    template = loader.get_template('index.html')
+    template = loader.get_template('exp_index.html')
     context = {
         'allExpenses': allExpenses,
     }
