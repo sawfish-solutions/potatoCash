@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+{% include 'base.html' %}
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Add Expense
+      </h1>
+      <p class="subtitle">
+        Welcome to potatoCash! Made with &#129505;, using <strong>Bulma</strong> & <strong>Django</strong>
+      </p>
+    </div>
+    <div class="container">
+        <br><br>
+        <form action="addexpense/" method="post">
+            {% csrf_token %}
+            Username: <br>
+            <input name="user_name">
+            <br><br>
+            First Name: <br>
+            <input name="first_name">
+            <br><br>
+            Last Name: <br>
+            <input name="last_name">
+            <br><br>
+            Expense Category: <br>
+            <input name="exp_category">
+            <br><br>
+            Expense Value: <br>
+            <input name="exp_value">
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+  </section>
+  </body>
+</html>

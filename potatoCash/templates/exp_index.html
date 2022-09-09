@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+{% include 'base.html' %}
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Expenses
+      </h1>
+      <p class="subtitle">
+        List of all expenses!
+      </p>
+      <div class "tableContainer">
+        <table class="table">
+            {% for x in allExpenses %}
+            <tr>
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Username</th>
+                  <th>First Name</th>
+                  <th>Surname</th>
+                  <th>Category</th>
+                  <th>Value</th>
+              </thead>
+                <td>{{ x.id }}</td>
+                <td>{{ x.username }}</td>
+                <td>{{ x.firstname }}</td>
+                <td>{{ x.lastname }}</td>
+                <td>{{ x.expcategory }}</td>
+                <td>{{ x.expvalue }}</td>
+                <td><a href="delete/{{ x.id }}">Delete</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+        <p>
+          <a href="add/">Add new expense</a>
+      </p>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
