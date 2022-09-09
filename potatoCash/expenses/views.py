@@ -24,9 +24,9 @@ def addexpense(request):
     e = request.POST['exp_value']
     expense = Expenses(username=a, firstname=b, lastname=c, expcategory=d, expvalue=e)
     expense.save()
-    return HttpResponseRedirect(reverse('index'))
+    return HttpResponseRedirect(reverse('exp_index'))
 
 def delete(request, id):
     expense = Expenses.objects.get(id=id)
     expense.delete()
-    return HttpResponseRedirect(reverse('index'))
+    return HttpResponseRedirect(reverse('exp_index'))
