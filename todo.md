@@ -5,3 +5,4 @@ PotatoCash Meeting
 2. Set aside dedicated time per week for meetings/work.
 3. Decide on core functionality.
 4. Design data/ERD.
+5. TEST
